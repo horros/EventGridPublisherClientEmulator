@@ -1,0 +1,4 @@
+.vs
+.vscode
+EventGridPublisherClientEmulator/bin
+EventGridPublisherClientEmulator/obj
