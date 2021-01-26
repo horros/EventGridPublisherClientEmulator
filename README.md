@@ -18,6 +18,8 @@ and construct a JSON representation of the events, set the correct headers and p
 
 ## Usage
 
+Build the project and add it as a reference in your own project. Or just copy the .cs file to your project.
+
 My quickly cobbled together thing registers a singleton service of type EventGridPublisherClient in `Startup.cs`, except if the environment is Development, we instantiate a ClientEmulator class instead of the EventGridPublisherClient:
 
 ```csharp
